@@ -1,0 +1,44 @@
+    protected static $MA_Table_Schema = array(
+      'Username'        => self::MA_DATA_TYPE_STR,
+      'Email'           => self::MA_DATA_TYPE_STR,
+      'Password'             ,
+      'RegDate'         => self::MA_DATA_TYPE_DECIMAL,
+      'Permission'      => self::MA_DATA_TYPE_INT,
+      'Picture'         => self::MA_DATA_TYPE_STR,
+      'UserDescription' => self::MA_DATA_TYPE_STR,
+      'UserIp'          => self::MA_DATA_TYPE_DECIMAL,
+      'ChangePass'           ,
+      'FullName'        => self::MA_DATA_TYPE_STR,
+      'CoverImage'      => self::MA_DATA_TYPE_STR,
+      'Age'             => self::MA_DATA_TYPE_INT,
+      'BirthDate'       => self::MA_DATA_TYPE_DECIMAL,
+      'Sex'             => self::MA_DATA_TYPE_INT,
+      'Status'          => self::MA_DATA_TYPE_INT,
+      'PermLink'        => self::MA_DATA_TYPE_STR,
+    );
+
+
+       <div class="btn-group pull-right">
+
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                    USA
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Canada</a></li>
+                                    <li><a href="#">UK</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                    DOLLAR
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Canadian Dollar</a></li>
+                                    <li><a href="#">Pound</a></li>
+                                </ul>
+                            </div>
+                        </div>

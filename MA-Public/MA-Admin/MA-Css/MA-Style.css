@@ -1,0 +1,143 @@
+@font-face{font-family:'FontAwesome';src:url('../fonts');}
+@font-face{font-family:'Cairo';src:url('../../MA_Fonts/Cairo-Regular.ttf');}
+body{
+    background: #ecf0f5;
+    font-family: Cairo!important;
+}
+/* StartHeader File */
+
+.user-menu{
+    width: 166px;
+}
+
+/* End Header FIle */
+
+/* Start Login Style Scope */
+.MA-Login-Body{
+    background: #d2d6de;
+}
+.MA-login-box{
+    text-align: center;
+    background: #fff;
+    margin: 137px auto;
+    width: 350px;
+    height:350px;
+    border-radius: 6px;
+    padding: 13px;
+}
+.MA-login-logo > a{
+    font-size: 25px;
+    font-weight: 700;
+    color: #444;
+    text-align: center;
+    text-decoration: none;
+}
+.MA-login-logo > a:hover{
+    text-decoration: none;
+}
+.MA-login-box-body{
+    padding-top: 44px;
+}
+.has-feedback{
+    position: relative;
+}
+.form-control {
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-color: #d2d6de;
+}
+.form-control:focus {
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.form-control-feedback {
+    color: #777;
+    position: absolute;
+    top: 0;
+    right: 9px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+.checkbox{
+    text-align: left;
+}
+/* End Login Style Scope */
+
+
+
+/* Start Users Page Scope  */
+/* Show All Users Page */
+.MA-User-Box-Control{
+    padding: 10px;
+}
+.MA-Img > img{
+    width: 35px;
+    height: 35px;
+}
+/* Add User Page */
+.MA-panel-heading {
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #f4f8fb;
+    height: 50px;
+    padding-top: 4px;
+}
+/* End Users Page Scope  */
+
+
+/* Start Error404 Page Scope */
+/*
+.MA-Error404-Page{
+    text-align: center;
+    margin: 101px auto;
+    background: #ff4f4f;
+    color: #fff;
+    padding: 21px;
+    width: 490px;
+    border-radius: 9px;
+}
+.MA-Error404-Page input{
+    border: 1px solid #ecf0f5;
+    height: 28px;
+    padding: 10px;
+}
+.MA-Error404-Page button{
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 12px;
+    margin-left: 66px;
+    height: 28px;
+    line-height: 32px;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+.MA-Error404-Page button>i{
+    position: relative;
+    margin-top: -30px;
+}
+*/
+/* End Error404 Page Scope */
+
+
+
+/* Start My FarmWork */
+.MA{
+
+}
+.MA-Error{
+    background: #F44336;
+    color: #fff;
+}
+
+
+/* Start My FarmWork */

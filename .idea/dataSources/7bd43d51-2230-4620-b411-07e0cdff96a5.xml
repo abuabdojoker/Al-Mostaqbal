@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="almostaqbal@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="almostaqbal">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="eCommerce"/>
+    <schema id="4" parent="1" name="hello_World"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="phpmyadmin"/>
+    <schema id="9" parent="1" name="test"/>
+    <table id="10" parent="2" name="MA_Category"/>
+    <table id="11" parent="2" name="MA_Email_Settings"/>
+    <table id="12" parent="2" name="MA_Products"/>
+    <table id="13" parent="2" name="ma_mail"/>
+    <table id="14" parent="2" name="ma_settings"/>
+    <table id="15" parent="2" name="users"/>
+    <column id="16" parent="10" name="MA_ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="10" name="MA_Title">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="10" name="MA_CLass">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="11" name="MA_ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="20" parent="11" name="MA_Host">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="21" parent="11" name="MA_SMTPAuth">
+      <Position>3</Position>
+      <DataType>varchar(6)|0</DataType>
+    </column>
+    <column id="22" parent="11" name="MA_Username">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="23" parent="11" name="MA_Password">
+      <Position>5</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="24" parent="11" name="MA_SMTPSecure">
+      <Position>6</Position>
+      <DataType>varchar(6)|0</DataType>
+    </column>
+    <column id="25" parent="11" name="MA_Port">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="26" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MA_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="12" name="MA_ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="12" name="MA_Title">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="12" name="MA_Description">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="12" name="MA_Price">
+      <Position>4</Position>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="12" name="MA_Picture">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="12" name="MA_Category">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="12" name="MA_Visitors">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="12" name="MA_Likes">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="35" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MA_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="13" name="MA_ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="37" parent="13" name="MA_Title">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="13" name="MA_Message">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="13" name="MA_Data">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="13" name="MA_Phone">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="41" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MA_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="42" parent="14" name="MA_ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="43" parent="14" name="ma_title">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="14" name="MA_TitleOrIco">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="14" name="MA_Description">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="14" name="MA_Meta">
+      <Position>5</Position>
+      <DataType>varchar(225)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="14" name="MA_Url">
+      <Position>6</Position>
+      <DataType>varchar(225)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="14" name="MA_Ico">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="14" name="MA_Phone">
+      <Position>8</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="14" name="MA_Facebook">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="14" name="MA_Twitter">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="14" name="MA_Linkedin">
+      <Position>11</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="14" name="MA_Google_Plus">
+      <Position>12</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="54" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MA_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="15" name="UserId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="56" parent="15" name="Username">
+      <Position>2</Position>
+      <DataType>varchar(300)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="15" name="Email">
+      <Position>3</Position>
+      <DataType>varchar(300)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="15" name="Password">
+      <Position>4</Position>
+      <DataType>varchar(300)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="15" name="Permission">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="15" name="Picture">
+      <Position>6</Position>
+      <DataType>varchar(300)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="15" name="UserIp">
+      <Position>7</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="15" name="ChangePass">
+      <Position>8</Position>
+      <DataType>int(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="15" name="MA_Active_Code">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="15" name="FullName">
+      <Position>10</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="15" name="Status">
+      <Position>11</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="66" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>UserId</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
